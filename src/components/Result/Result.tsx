@@ -65,7 +65,7 @@ export const Result:React.FC = () => {
       :
         <ResultList>
           {searchResults.map(s => (
-            <RowItem rowText={`${s.Title} (${s.Year})`} buttonText="Nominate" itemId={s.imdbID} onClick={() => handleNominate(s)} 
+            <RowItem key={s.imdbID} rowText={`${s.Title} (${s.Year})`} buttonText="Nominate" itemId={s.imdbID} onClick={() => handleNominate(s)} 
             disabled={shouldDisable(s, nominated)}/>
           ))}
         </ResultList>

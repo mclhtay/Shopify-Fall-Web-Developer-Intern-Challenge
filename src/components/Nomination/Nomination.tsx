@@ -39,7 +39,7 @@ export const Nomination: React.FC = () => {
       <NominationList>
         {
           nominatedList.map(n => (
-            <RowItem disabled={false} dangerButton buttonText="Remove" rowText={`${n.Title} (${n.Year})`} itemId={n.imdbID} 
+            <RowItem key={n.imdbID} disabled={false} dangerButton buttonText="Remove" rowText={`${n.Title} (${n.Year})`} itemId={n.imdbID} 
               onClick={() => handleRemoveNomination(n)}
             />
           ))

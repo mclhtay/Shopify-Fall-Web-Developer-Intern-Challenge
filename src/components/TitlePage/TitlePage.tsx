@@ -77,9 +77,9 @@ export const TitlePage: React.FC = () => {
 
   React.useEffect(() => {
     if(clicked){
-      setTimeout(() => {
+      
         dispatch(updateEnterSite());
-      }, 500)
+      
     }
   }, [clicked, dispatch])
 
