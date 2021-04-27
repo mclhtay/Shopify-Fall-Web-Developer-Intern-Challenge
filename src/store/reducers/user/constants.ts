@@ -1,0 +1,1 @@
+export const localStorageKey = "ospify-sjin1234"
