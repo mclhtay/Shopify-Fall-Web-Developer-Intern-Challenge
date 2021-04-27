@@ -17,6 +17,7 @@ Heroku Link: https://dry-shore-27072.herokuapp.com/
 
 1. Reactjs
 2. Typescript
-3. redux (@reduxjs/toolkit)
+3. Redux (@reduxjs/toolkit)
+4. Styled-components
 
 video credit: John Maverick -https://www.youtube.com/watch?v=hglyRJXCNCM
